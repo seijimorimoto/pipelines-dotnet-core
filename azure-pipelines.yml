@@ -19,5 +19,5 @@ steps:
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: '$(Build.SourcesDirectory)/Scripts'
-    artifact: 'Scripts Artifact'
+    artifact: 'Scripts'
     publishLocation: 'pipeline'
